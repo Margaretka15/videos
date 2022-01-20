@@ -3,6 +3,7 @@ import SearchBar from "../components/SearchBar";
 import youtube from "../APIs/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
+import './App.css';
 
 class App extends React.Component {
 

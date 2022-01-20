@@ -1,9 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-body {
-    margin: 1%;
-}
 .video-item{
     display: flex !important;
     align-items: center;
@@ -11,32 +5,4 @@ body {
 }
 .video-item.item img{
     max-width: 200px;
-}
-.margin-bottom-small{
-    margin-bottom: 15px !important;
-}
-
-.big-container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 2rem;
-}
-.box{
-    width: 49%;
-}
-
-@media (max-width: 800px){
-    /* */
-    .box{
-        width: 100%;
-    }
-    .box:last-child{
-        margin-top: 1.5rem;
-    }
-    .big-container{
-        flex-direction: column;
-    }
-
 }
